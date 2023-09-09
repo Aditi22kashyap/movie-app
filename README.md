@@ -1,4 +1,4 @@
-# Movie Watchlist App
+# Movie  App
 
 This is a simple movie watchlist app built using React. It allows users to browse popular movies, view movie details, and add movies to their watchlist.
 
