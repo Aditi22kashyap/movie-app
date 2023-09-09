@@ -1,0 +1,40 @@
+
+h1{
+    text-align: center;
+}
+.movie-list-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+    /* Distribute items evenly, creating space between them */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding on the ul element */
+   
+    
+  }
+  
+  .movie-item {
+    /* width:  calc(33.33% - 16px); Adjust the width for 3 items per row and spacing */
+    width:30%;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    padding: 16px; /* Add padding around each movie item */
+    border: 1px solid #ddd; /* Add a border for separation  */
+    text-align: center; /* Center text and image */
+    
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  
+  .movie-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-item img {
+    width: 100%; /* Make the image fill the container */
+    max-height: 300px; /* Limit the image height if necessary */
+  }
+  
+  .movie-item p {
+    font-size: 0.9rem;
+  }
+  
+  
