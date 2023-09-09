@@ -37,9 +37,9 @@ yarn start
 Open your browser and visit http://localhost:3000 to view the app.
 
 # Features
-Browse a list of popular movies.
-View detailed information about each movie.
-Add movies to your watchlist.
+1.Browse a list of popular movies.
+2.View detailed information about each movie.
+3.Add movies to your watchlist.
 View your watchlist.
 
 
